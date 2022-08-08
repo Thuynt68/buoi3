@@ -36,37 +36,29 @@ h3 {
   font-weight: 600;
   margin-bottom: 15px;
 }
-
 img {
   display: block;
   width: 100%;
   margin-bottom: 30px;
 }
-
 a {
   text-decoration: none;
 }
-
 li {
   list-style: none;
 }
-
-
 .container {
   max-width: 681px;
   width: 100%;
   margin: 0 auto;
   padding: 0 18px;
 }
-
 .container_header {
-  
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   padding: 0 18px;
 }
-
 .active {
   color: #FF6464;
 }
@@ -77,11 +69,9 @@ li {
   display: flex;
   justify-content: flex-end;
 }
-
 .menu li {
   margin-left: 20px;
 }
-
 .menu li a {
   font-weight: 600;
   font-size: 20px;
@@ -91,7 +81,6 @@ li {
   justify-content: flex-end;
   display: none;
 }
-
 .bar i{
   font-size: 30px;
 }
@@ -99,14 +88,12 @@ li {
   margin-top: 78px;
   margin-bottom: 54px;
 }
-
 .date {
   font-size: 20px;
   line-height: 29px;
   display: flex;
   align-items: center;
 }
-
 .date span {
   font-size: 18px;
   line-height: 60px;
@@ -117,7 +104,6 @@ li {
   padding:0 10px;
   border-radius: 16px;
 }
-
 .date p {
   font-size: 18px;
   color: #21243D;
@@ -125,22 +111,43 @@ li {
 .description {
   margin-bottom: 30px;
 }
-
-@media (max-width: 375px) {
+.footer{
+  width: 1152px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.icon{
+  margin-top: 51px;
+  margin-left: 459px;
+}
+.icon i{
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-right: 35px;
+}
+.text--center{
+  margin-left: 464px;
+  margin-top: 26px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #21243D;
+}
+@media (max-width: 626px) {
   h1 {
     font-size: 30px;
   }
   .header {
     padding: 20px 0;
   }
-.menu {
+  .menu {
   display: none;
-}
-
-.bar {
+  }
+  .bar {
   display: flex;
-}
-.top {
+  }
+  .top {
   margin: 30px 0;
-}
+  }
 }
